@@ -1,0 +1,5 @@
+#!/bin/sh
+
+/usr/bin/invoke_app "$@" -t hydrogenenergy \
+                         -C "start_jupyter -A -T @tool Materials\ for\ Hydrogen-Based\ Energy\ Conversion.ipynb" \
+                         -u anaconda-6
